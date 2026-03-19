@@ -1,20 +1,496 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Planlage Video</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forschungsprojekte</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+		:root {
+			--bg: #f5f6f8;
+			--surface: #ffffff;
+			--surface2: #eef0f4;
+			--border: #dde0e8;
+			--accent: #c4991a;
+			--accent2: #2a7fd4;
+			--text: #4a5068;
+			--text-dim: #9aa0b8;
+			--text-light: #1a1e2e;
+
+			--c-bearbeitet: #2a7fd4;
+			--c-ausstieg:   #d4742a;
+			--c-diss:       #7a2ad4;
+			--c-side:       #2ad49a;
+			--c-rejected:   #b0b8d0;
+		}
+
+		*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+		body {
+			background: var(--bg);
+			color: var(--text);
+			font-family: 'DM Sans', sans-serif;
+			font-weight: 300;
+			min-height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: flex-start;
+			padding: 48px 24px;
+		}
+
+		.container { width: 100%; max-width: 860px; }
+
+		.header { margin-bottom: 40px; }
+
+		.header h1 {
+			font-family: 'Fraunces', serif;
+			font-weight: 300;
+			font-size: 32px;
+			color: var(--text-light);
+			letter-spacing: -0.01em;
+			margin-bottom: 8px;
+		}
+
+		.header p {
+			font-family: 'DM Mono', monospace;
+			font-size: 12px;
+			color: var(--text-dim);
+			letter-spacing: 0.08em;
+		}
+
+		/* Section */
+		.section { margin-bottom: 36px; }
+
+		.section-heading {
+			display: flex;
+			align-items: center;
+			gap: 12px;
+			margin-bottom: 14px;
+		}
+
+		.section-dot {
+			width: 7px; height: 7px;
+			border-radius: 50%;
+			flex-shrink: 0;
+		}
+
+		.section-heading-label {
+			font-family: 'DM Mono', monospace;
+			font-size: 11px;
+			letter-spacing: 0.14em;
+			text-transform: uppercase;
+			white-space: nowrap;
+		}
+
+		.section-heading-line { flex: 1; height: 1px; background: var(--border); }
+
+		.cat-bearbeitet .section-dot          { background: var(--c-bearbeitet); }
+		.cat-bearbeitet .section-heading-label{ color: var(--c-bearbeitet); }
+		.cat-ausstieg   .section-dot          { background: var(--c-ausstieg); }
+		.cat-ausstieg   .section-heading-label{ color: var(--c-ausstieg); }
+		.cat-diss       .section-dot          { background: var(--c-diss); }
+		.cat-diss       .section-heading-label{ color: var(--c-diss); }
+		.cat-side       .section-dot          { background: var(--c-side); }
+		.cat-side       .section-heading-label{ color: var(--c-side); }
+		.cat-rejected   .section-dot          { background: var(--c-rejected); }
+		.cat-rejected   .section-heading-label{ color: var(--c-rejected); }
+		.cat-rejected   .item                 { opacity: 0.65; }
+
+		/* Item */
+		.item {
+			border: 1px solid var(--border);
+			margin-bottom: 10px;
+			overflow: hidden;
+			transition: border-color 0.2s;
+		}
+
+		.item.active { border-color: #b0b8d0; }
+
+		.toggle {
+			width: 100%;
+			border: none;
+			background: var(--surface);
+			padding: 20px 24px;
+			text-align: left;
+			cursor: pointer;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 16px;
+			transition: background 0.2s;
+		}
+
+		.toggle:hover { background: var(--surface2); }
+
+		.toggle-left { display: flex; align-items: center; gap: 12px; }
+
+		.toggle-title {
+			font-family: 'Fraunces', serif;
+			font-weight: 300;
+			font-size: 18px;
+			color: var(--text-light);
+			letter-spacing: -0.01em;
+		}
+
+		.badge {
+			font-family: 'DM Mono', monospace;
+			font-size: 10px;
+			letter-spacing: 0.1em;
+			text-transform: uppercase;
+			padding: 3px 8px;
+			flex-shrink: 0;
+		}
+
+		.badge-diss     { background: #ede8f8; color: var(--c-diss); border: 1px solid #c9b8ec; }
+		.badge-rejected { background: #f0f1f4; color: var(--c-rejected); border: 1px solid var(--border); }
+
+		.symbol {
+			font-family: 'DM Mono', monospace;
+			font-size: 20px;
+			color: var(--text-dim);
+			flex-shrink: 0;
+			line-height: 1;
+			transition: color 0.2s;
+		}
+
+		.item.active .symbol { color: var(--accent); }
+
+		.content {
+			display: none;
+			padding: 28px 24px;
+			background: var(--bg);
+			border-top: 1px solid var(--border);
+		}
+
+		.item.active .content { display: block; }
+
+		.content-id {
+			font-family: 'DM Mono', monospace;
+			font-size: 11px;
+			letter-spacing: 0.14em;
+			color: var(--accent);
+			text-transform: uppercase;
+			margin-bottom: 6px;
+		}
+
+		.content h3 {
+			font-family: 'Fraunces', serif;
+			font-weight: 300;
+			font-size: 20px;
+			color: var(--text-light);
+			margin-bottom: 20px;
+			line-height: 1.35;
+		}
+
+		.content ul {
+			list-style: none;
+			display: flex;
+			flex-direction: column;
+			gap: 12px;
+			margin-bottom: 20px;
+		}
+
+		.content li {
+			font-size: 14px;
+			line-height: 1.65;
+			color: var(--text);
+			padding-left: 20px;
+			position: relative;
+		}
+
+		.content li::before {
+			content: '→';
+			position: absolute;
+			left: 0;
+			color: var(--text-dim);
+			font-size: 12px;
+		}
+
+		.content li strong { color: var(--text-light); font-weight: 500; }
+
+		.content ul ul { margin-top: 10px; margin-bottom: 0; padding-left: 0; gap: 6px; }
+		.content ul ul li { font-size: 13px; color: var(--text-dim); }
+		.content ul ul li::before { content: '·'; font-size: 16px; top: -1px; }
+
+		.kernaussage {
+			margin-top: 24px;
+			padding: 16px 20px;
+			border-left: 3px solid var(--accent);
+			background: var(--surface);
+			font-family: 'Fraunces', serif;
+			font-style: italic;
+			font-size: 15px;
+			line-height: 1.65;
+			color: var(--text-light);
+		}
+
+		.image-gallery {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 12px;
+			margin-top: 24px;
+		}
+
+		.image-gallery figure {
+			margin: 0;
+			flex: 1 1 200px;
+			max-width: 280px;
+		}
+
+		.image-gallery img {
+			width: 100%;
+			display: block;
+			border: 1px solid var(--border);
+			background: var(--surface2);
+		}
+
+		.image-gallery figcaption {
+			font-family: 'DM Mono', monospace;
+			font-size: 10px;
+			letter-spacing: 0.06em;
+			color: var(--text-dim);
+			margin-top: 6px;
+		}
+
+		.empty-note {
+			font-size: 14px;
+			color: var(--text-dim);
+			font-style: italic;
+		}
+
+		/* Images */
+		.image-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+			gap: 12px;
+			margin-top: 24px;
+		}
+
+		.image-grid figure {
+			margin: 0;
+			display: flex;
+			flex-direction: column;
+			gap: 6px;
+		}
+
+		.image-grid img {
+			width: 100%;
+			aspect-ratio: 4/3;
+			object-fit: cover;
+			border: 1px solid var(--border);
+			display: block;
+			cursor: pointer;
+			transition: opacity 0.2s;
+		}
+
+		.image-grid img:hover { opacity: 0.85; }
+
+		.image-grid figcaption {
+			font-family: 'DM Mono', monospace;
+			font-size: 11px;
+			color: var(--text-dim);
+			letter-spacing: 0.04em;
+		}
+
+		/* Lightbox */
+		.lightbox {
+			display: none;
+			position: fixed;
+			inset: 0;
+			background: rgba(15,17,23,0.85);
+			z-index: 1000;
+			justify-content: center;
+			align-items: center;
+			padding: 32px;
+		}
+
+		.lightbox.open { display: flex; }
+
+		.lightbox img {
+			max-width: 100%;
+			max-height: 85vh;
+			object-fit: contain;
+			box-shadow: 0 16px 48px rgba(0,0,0,0.5);
+		}
+
+		.lightbox-close {
+			position: fixed;
+			top: 20px;
+			right: 28px;
+			font-family: 'DM Mono', monospace;
+			font-size: 24px;
+			color: #fff;
+			cursor: pointer;
+			opacity: 0.7;
+			line-height: 1;
+		}
+
+		.lightbox-close:hover { opacity: 1; }
+
+		/* Volltitel tooltip */
+		.volltitel-wrapper { position: relative; display: inline-block; margin-bottom: 20px; }
+
+		.volltitel {
+			font-family: 'DM Mono', monospace;
+			font-size: 11px;
+			letter-spacing: 0.08em;
+			color: var(--accent2);
+			cursor: pointer;
+			text-decoration: underline;
+			text-underline-offset: 3px;
+		}
+
+		.tooltip {
+			visibility: hidden;
+			opacity: 0;
+			position: absolute;
+			top: calc(100% + 8px);
+			left: 0;
+			background: var(--surface2);
+			border: 1px solid var(--border);
+			color: var(--text);
+			padding: 12px 14px;
+			width: 380px;
+			font-size: 13px;
+			line-height: 1.55;
+			box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+			transition: opacity 0.2s;
+			z-index: 10;
+		}
+
+		.volltitel-wrapper:hover .tooltip { visibility: visible; opacity: 1; }
+    </style>
 </head>
 <body>
-  <h1>Planlage</h1>
+<div class="container">
+    <div class="header">
+        <h1>Forschungsprojekte</h1>
+        <p>IKV · RWTH Aachen · Kunststoffverarbeitung</p>
+    </div>
+    <div id="app"></div>
+</div>
 
-  <p>
-    <a href="Planlage.mp4" target="_blank">Open video</a>
-  </p>
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <span class="lightbox-close">×</span>
+    <img id="lightbox-img" src="" alt="">
+</div>
 
-  <video controls width="100%">
-    <source src="Planlage.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+<script>
+	function openLightbox(src) {
+		document.getElementById('lightbox-img').src = src;
+		document.getElementById('lightbox').classList.add('open');
+	}
+
+	function closeLightbox() {
+		document.getElementById('lightbox').classList.remove('open');
+	}
+
+	document.addEventListener('keydown', e => {
+		if (e.key === 'Escape') closeLightbox();
+	});
+
+	// ── Render ────────────────────────────────────────────────────
+	function renderBadge(badge) {
+		if (badge === 'diss')     return `<span class="badge badge-diss">Auch Diss</span>`;
+		if (badge === 'rejected') return `<span class="badge badge-rejected">Nicht genehmigt</span>`;
+		return '';
+	}
+
+	function renderItem(item) {
+		const badges = (item.badges || []).map(renderBadge).join('');
+
+		const volltitel = item.fullTitle
+			? `<div class="volltitel-wrapper">
+           <span class="volltitel">↗ Volltitel anzeigen</span>
+           <div class="tooltip">${item.fullTitle}</div>
+         </div>`
+			: '';
+
+		const bulletRows = (item.bullets || []).map(b => {
+			const sub = (b.sub || []).length
+				? `<ul>${b.sub.map(s => `<li>${s}</li>`).join('')}</ul>`
+				: '';
+			return `<li><strong>${b.label}:</strong> ${b.text}${sub}</li>`;
+		}).join('');
+
+		const bullets = bulletRows
+			? `<ul>${bulletRows}</ul>`
+			: `<p class="empty-note">Inhalt folgt.</p>`;
+
+		const kernaussage = item.kernaussage
+			? `<div class="kernaussage">${item.kernaussage}</div>`
+			: '';
+
+		const images = (item.images || []).length
+			? `<div class="image-grid">${(item.images).map(img =>
+				`<figure>
+             <img src="${img.src}" alt="${img.caption || ''}" onclick="openLightbox('${img.src}')">
+             ${img.caption ? `<figcaption>${img.caption}</figcaption>` : ''}
+           </figure>`
+			).join('')}</div>`
+			: '';
+
+		return `
+      <div class="item">
+        <button class="toggle">
+          <span class="toggle-left">
+            <span class="toggle-title">${item.title}</span>
+            ${badges}
+          </span>
+          <span class="symbol">+</span>
+        </button>
+        <div class="content">
+          <div class="content-id">${item.id}</div>
+          <h3>${item.shortTitle}</h3>
+          ${volltitel}
+          ${bullets}
+          ${kernaussage}
+          ${images}
+        </div>
+      </div>`;
+	}
+
+	function renderSection(section) {
+		const items = section.items.map(renderItem).join('');
+		return `
+      <div class="section cat-${section.category}">
+        <div class="section-heading">
+          <span class="section-dot"></span>
+          <span class="section-heading-label">${section.section}</span>
+          <span class="section-heading-line"></span>
+        </div>
+        ${items}
+      </div>`;
+	}
+
+	// ── Load data & boot ──────────────────────────────────────────
+	fetch('projekte.json')
+	.then(r => r.json())
+	.then(data => {
+		document.getElementById('app').innerHTML = data.map(renderSection).join('');
+		initAccordion();
+	})
+	.catch(err => {
+		document.getElementById('app').innerHTML =
+			`<p style="color:red;font-family:monospace">Fehler beim Laden von projekte.json: ${err}</p>`;
+	});
+
+	function initAccordion() {
+		const items = document.querySelectorAll('.item');
+		items.forEach(item => {
+			item.querySelector('.toggle').addEventListener('click', () => {
+				const isActive = item.classList.contains('active');
+				items.forEach(other => {
+					other.classList.remove('active');
+					other.querySelector('.symbol').textContent = '+';
+				});
+				if (!isActive) {
+					item.classList.add('active');
+					item.querySelector('.symbol').textContent = '−';
+				}
+			});
+		});
+	}
+</script>
 </body>
 </html>
