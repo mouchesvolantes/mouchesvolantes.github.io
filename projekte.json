@@ -8,6 +8,24 @@
         "id": "",
         "shortTitle": "Untersuchung der Einflüsse von Prozessparametern auf die Planlage in der Blasfolienextrusion durch optische Erfassung der Folientopographie",
         "fullTitle": null,
+        "bullets": [
+          {
+            "label": "Fokus und Innovation",
+            "text": "Entwicklung eines neuartigen optischen Messverfahrens auf Basis der Lasertriangulation zur erstmaligen objektiven und reproduzierbaren Erfassung der Folienplanlage"
+          },
+          {
+            "label": "Methodik",
+            "text": "Datenbasierte Analyse des Einflusses relevanter Prozessparameter auf die Folienplanlage"
+          },
+          {
+            "label": "Industrierelevanz",
+            "text": "Überführung eines bisher subjektiv bewerteten Qualitätsmerkmals in ein reproduzierbares, quantifizierbares Messkriterium"
+          },
+            {
+            "label": "Praxisumsetzung",
+            "text": "Konzeption, Aufbau und Inbetriebnahme des Messsystems einschließlich Hard- und Softwareimplementierung"
+          }
+        ],
         "badges": []
       }
     ]
@@ -17,110 +35,108 @@
     "category": "bearbeitet",
     "items": [
       {
-        "title": "Blasfolienextrusion - Planlage in der Blasfolienextrusion",
-        "id": "",
+        "title": "Blasfolienextrusion - Optische Erfassung der Planlagequalität",
+        "id": "AiF · 2 Jahre",
         "shortTitle": "",
         "fullTitle": "Untersuchung der Einflüsse von Prozessparametern auf die Planlage in der Blasfolienextrusion durch optische Erfassung der Folientopographie",
         "videos": [
           {
             "src": "Planlage1.mp4",
-            "caption": "Versuchsaufbau in Betrieb",
-            "poster": "PlanlageVideo1_preview.png"
+            "caption": "Optische Erfassung der Folientopographie"
           },
           {
             "src": "Planlage2.mp4",
-            "caption": "Versuchsaufbau in Betrieb",
-            "poster": "PlanlageVideo1_preview.png"
+            "caption": "Flattern in der Schlauchbildungszone"
           }
         ],
         "images": [
           {
             "src": "Planlage1.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Subjektive Planlagebeurteilung in der Praxis"
           },
           {
             "src": "Planlage2.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Prinzip der Lasertriangulation"
           },
           {
             "src": "Planlage3.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Längsstreifenmessverfahren"
           },
           {
             "src": "Planlage4.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Planlagemessstand am IKV"
           },
           {
             "src": "Planlage5.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Beispiel: Planlageerfassung (1)"
           },
           {
             "src": "Planlage6.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Beispiel: Planlageerfassung (2)"
           },
           {
             "src": "Planlage7.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Strategie bei der Probenentnahme"
           },
           {
             "src": "Planlage8.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Folienproben"
           },
           {
             "src": "Planlage9.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Erfassung von Blasenkontur"
           },
           {
             "src": "Planlage10.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Erfassung der Temperaturverteilung"
           },
           {
             "src": "Planlage11.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Vergleich zwischen analoger und digitaler Längsstreifenmessung"
           },
           {
             "src": "Planlage12.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Schneidtisch für Längsstreifenmessverfahren"
           },
           {
             "src": "Planlage13.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Digitale Bestimmung des Längenprofils"
           },
           {
             "src": "Planlage14.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Kennwerte zur Planlagebeurteilung"
           },
           {
             "src": "Planlage15.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Einfluss der Prozessparameter auf die Planlage qualität (PE-LD)"
           },
           {
             "src": "Planlage16.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Einfluss der Foliendicke auf die Planlage qualität (PE-LD)"
           },
           {
             "src": "Planlage17.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Kameragestützte Bestimmung des Längenprofils"
           },
           {
             "src": "Planlage18.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Quantifizierung der Planlage mittels Längsstreifenmessungen"
           }
         ],
         "bullets": [
           {
             "label": "Problem",
-            "text": "Planlagefehler treten häufig in der Blasfolienextrusion auf und sind bisher nicht vorhersagbar.",
+            "text": "Planlagefehler treten häufig in der Blasfolienextrusion auf und sind bisher nicht vorhersagbar",
             "sub": [
               "Wellen, Falten, Durchhang, Rollneigung und Bogenlauf",
               "Probleme beim Drucken, Laminieren und Weiterverarbeiten",
-              "Aufaddieren der Fehler in der Rolle → Rollendefekte",
+              "Aufaddieren der Fehler in der Rolle führen zu Rollendefekten",
               "Qualitätsverluste und Ausschussproduktion"
             ]
           },
           {
             "label": "Ursachen",
-            "text": "Die Einflussfaktoren auf Planlage sind vielfältig und nicht systematisch verstanden.",
+            "text": "Die Einflussfaktoren auf Planlage sind vielfältig und nicht systematisch verstanden",
             "sub": [
               "Ungleichmäßige Dickenverteilung durch Volumenstrom- und Temperaturunterschiede",
               "Inhomogene Abkühlbedingungen in der Schlauchbildungszone",
@@ -142,19 +158,9 @@
             "label": "Lösung",
             "text": "",
             "sub": [
-              "Aufbau von optischen Messsystemen für Planlage und Oberflächenfehler",
-              "Lasertriangulation zur 3D-Erfassung der Folientopographie",
-              "Infrarotkamera zur Bestimmung der Temperaturverteilung",
-              "Kamerabasierte Inspektion und Bildverarbeitung zur Fehlerdetektion und Klassifikation"
-            ]
-          },
-          {
-            "label": "Technischer Ansatz",
-            "text": "",
-            "sub": [
-              "Systematische Versuchsplanung mit Variation von BUR, Temperatur, Frostlinie und Kühlung",
-              "Untersuchung von Ein- und Mehrschichtfolien (PE, PP)",
+              "Aufbau von optischen Messsystemen zur Erfassung der Planlagequalität",
               "Entwicklung von Bildverarbeitungs- und Klassifikationsalgorithmen (MATLAB)",
+              "Systematische Versuchsplanung mit Variation von BUR, Temperatur und Massendurchsatz",
               "Korrelation von Prozessdaten, Temperaturfeldern und Planlagefehlern"
             ]
           },
@@ -169,32 +175,32 @@
             ]
           }
         ],
-        "kernaussage": "Das Projekt schafft erstmals ein systematisches Verständnis der Einflussfaktoren auf die Planlage und ermöglicht eine gezielte Optimierung der Blasfolienextrusion.",
+        "kernaussage": "Das Projekt schafft erstmals ein systematisches Verständnis der Einflussfaktoren auf die Planlage und ermöglicht eine gezielte Optimierung der Blasfolienextrusion sowie die erstmalige objektive und reproduzierbare Erfassung der Planlagequalität",
         "badges": [
           "diss"
         ]
       },
       {
         "title": "Kautschukaufbereitung - Mischzeitreduktion auf Basis datengetriebener Modelle",
-        "id": "",
+        "id": "AiF · 2 Jahre",
         "shortTitle": "",
         "fullTitle": "Erhöhung der Energieeffizienz bei der Kautschukaufbereitung durch eine Mischzeitreduktion auf Basis datengetriebener mathematischer Modelle",
         "images": [
           {
             "src": "Kautschuk1.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Datenbasierte mathematische Modellierung"
           },
           {
             "src": "Kautschuk2.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Fingerprint eines Mischprozesses (1)"
           },
           {
             "src": "Kautschuk3.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Fingerprint eines Mischprozesses (2)"
           },
           {
             "src": "Kautschuk4.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Entwickelte Software für die Modellbildung"
           }
         ],
         "bullets": [
@@ -202,9 +208,9 @@
             "label": "Problem",
             "text": "Mischvorschriften für Kautschuk werden empirisch festgelegt und selten systematisch optimiert.",
             "sub": [
-              "Mischzeiten häufig länger als nötig – kein konsequentes Optimieren hinsichtlich Energie und Zeit",
+              "Mischzeiten häufig länger als nötig → kein konsequentes Optimieren hinsichtlich Energie und Zeit",
               "Vorhandene Prozessdaten werden kaum zur Optimierung genutzt",
-              "Empirische Zeitmarken (z. B. Mastikation) ohne wissenschaftliche Grundlage – Einsparpotenzial von ≥ 10 % ungenutzt",
+              "Empirische Zeitmarken (z. B. Mastikation) ohne wissenschaftliche Grundlage → Einsparpotenzial von ≥ 10 % ungenutzt",
               "Hoher Energieverbrauch bei diskontinuierlichen Mischprozessen"
             ]
           },
@@ -213,7 +219,7 @@
             "text": "",
             "sub": [
               "Mischzeiten in Einzugs-, Mastikations- und Füllstoffeinarbeitungsphase systematisch reduzieren",
-              "Energieverbrauch beim Mischen um ca. 10–20 % senken",
+              "Energieverbrauch beim Mischen senken",
               "Durchsatz bei konstanter Mischungsqualität erhöhen",
               "Methodik auf konventionellen Innenmischern bei KMU anwendbar machen"
             ]
@@ -234,7 +240,7 @@
             "text": "",
             "sub": [
               "Mischversuche mit NR, NBR und SBR/BR-Blends am Laborinnenmischer (IKV)",
-              "Variation von Drehzahl, Temperierung, Füllgrad und Mischzeit – systematische Versuchsplanung",
+              "Variation von Drehzahl, Temperierung, Füllgrad und Mischzeit → systematische Versuchsplanung",
               "Charakterisierung über RPA (Viskosität, Payne-Effekt) und Molekulargewichtsverteilung",
               "Modellbildung in MATLAB, Implementierung der Soft-Sensoren in Structured Text (SPS-fähig)",
               "Validierung auf Labormischer (PES 5) und Scale-up auf GK 5 E (Industriegröße)"
@@ -246,7 +252,7 @@
             "sub": [
               "Geringerer Energieverbrauch und kürzere Zykluszeiten ohne neue Anlagentechnik",
               "Methoden direkt auf vorhandene Innenmischer übertragbar",
-              "Open-Source-Datenbankstruktur und offene OPC-UA-Schnittstelle – keine Lizenzkosten",
+              "Open-Source-Datenbankstruktur und offene OPC-UA-Schnittstelle ohne Lizenzkosten",
               "Automatisierte Phasenerkennung verbessert Prozessverständnis und Reproduzierbarkeit"
             ]
           }
@@ -256,7 +262,7 @@
       },
       {
         "title": "Streckblasformen - Reptationsmodell für PET bei hohen Dehnraten",
-        "id": "",
+        "id": "DFG · 2 Jahre",
         "shortTitle": "",
         "fullTitle": "Entwicklung und Analyse eines Materialmodells auf Basis der Reptationstheorie zur Abbildung des Dehnverhaltens von PET bei hohen Dehnraten",
         "images": [
@@ -272,7 +278,7 @@
             "sub": [
               "Schlechte Vorhersage bei hohen Dehngeschwindigkeiten (> 700 %/s)",
               "Ungenaue Extrapolation außerhalb des kalibrierten Bereichs",
-              "Im Streckblasprozess treten gleichzeitig verschiedene Dehnraten und Temperaturen auf – keine gleichmäßige Abbildungsgenauigkeit"
+              "Im Streckblasprozess treten gleichzeitig verschiedene Dehnraten und Temperaturen auf → keine gleichmäßige Abbildungsgenauigkeit"
             ]
           },
           {
@@ -299,7 +305,7 @@
             "text": "",
             "sub": [
               "Reptationstheorie nach De Gennes und Edwards als physikalische Grundlage",
-              "Tube model zur Beschreibung der Molekülkettenbewegung",
+              "Tube-Model zur Beschreibung der Molekülkettenbewegung",
               "Kombination aus Reptationsterm und Rouse-Term für den glasnahen Bereich",
               "Fluid-Struktur-Interaktion in der MIR-Simulation",
               "Inverser Algorithmus zur Berechnung der Temperaturverteilung im Preform"
@@ -316,7 +322,7 @@
             ]
           }
         ],
-        "kernaussage": "Weg von empirischen Feder-Dämpfer-Modellen – hin zu physikalisch basierter Materialbeschreibung auf Basis der Reptationstheorie für präzisere Simulationen im Streckblasprozess.",
+        "kernaussage": "Weg von empirischen Feder-Dämpfer-Modellen → hin zu physikalisch basierter Materialbeschreibung auf Basis der Reptationstheorie für präzisere Simulationen im Streckblasprozess.",
         "badges": []
       }
     ]
@@ -333,15 +339,15 @@
         "images": [
           {
             "src": "MIR1.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Membran-Inflations-Rheometer (MIR)"
           },
           {
             "src": "MIR2.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Membran-Inflations-Rheometer (MIR)"
           },
           {
             "src": "MIR3.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Erfassung von Bildmerkmalen bei sehr hohen Dehngeschwindigkeiten"
           }
         ],
         "bullets": [
@@ -392,7 +398,7 @@
             ]
           }
         ],
-        "kernaussage": "Von vorgegebenem Bewegungsprofil → zu optisch basierter Echtzeitregelung.",
+        "kernaussage": "Von vorgegebenem Bewegungsprofil zu optisch basierter Echtzeitregelung",
         "badges": []
       }
     ]
@@ -403,13 +409,13 @@
     "items": [
       {
         "title": "Schaumextrusion - Inline-Erfassung und -regelung der Schaumstruktur",
-        "id": "",
+        "id": "AiF · 2 Jahre",
         "shortTitle": "",
         "fullTitle": "Entwicklung eines Regelungskonzeptes zur verbesserten Prozessführung in der Schaumextrusion durch Inline-Erfassung und Klassifizierung der Schaumstruktur mittels digitaler Bildverarbeitung",
         "images": [
           {
             "src": "Schaumstruktur1.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Bildverarbeitungskette bei der Schaumstrukturanalyse"
           }
         ],
         "bullets": [
@@ -459,59 +465,58 @@
             "text": "",
             "sub": [
               "Kontinuierliche, objektive Qualitätsüberwachung statt manueller Sichtprüfung",
-              "Schnellere Reaktion auf Prozessabweichungen – weniger Ausschuss",
+              "Schnellere Reaktion auf Prozessabweichungen → weniger Ausschuss",
               "Nachrüstlösung für bestehende Anlagen, Systemziel < 25.000 €",
-              "Implementierung in lizenzfreien Sprachen (C++/OpenCV) – keine Lizenzkosten"
+              "Implementierung in lizenzfreien Sprachen (C++/OpenCV) → keine Lizenzkosten"
             ]
           }
         ],
-        "kernaussage": "Das Projekt verbindet Bildverarbeitung, automatische Klassifikation und Prozessregelung, um die Schaumextrusion erstmals inline regelbar zu machen – zuverlässiger, effizienter und wirtschaftlicher.",
+        "kernaussage": "Das Projekt verbindet Bildverarbeitung, automatische Klassifikation und Prozessregelung, um die Schaumextrusion erstmals inline regelbar zu machen → zuverlässiger, effizienter und wirtschaftlicher.",
         "badges": []
       },
       {
         "title": "Flachfolienextrusion - Walzenbelagserkennung und -reinigung",
-        "id": "",
+        "id": "AiF · 2 Jahre",
         "shortTitle": "",
         "fullTitle": "Steigerung der Produktivität und der Folienqualität in der Flachfolienextrusion durch Vermeidung der Belagsbildung auf Kühlwalzen mithilfe eines mit einem optischen Inspektionssystem gekoppelten Walzenreinigungssystems",
         "images": [
           {
             "src": "Walzenbelag1.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Kamerasystem am IKV"
           },
           {
             "src": "Walzenbelag2.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Entwickelte Software zur Bildverarbeitung (1)"
           },
           {
             "src": "Walzenbelag3.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Entwickelte Software zur Bildverarbeitung (2)"
           },
           {
             "src": "Walzenbelag4.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Schematische Darstellung des Messbereiches (1)"
           },
           {
             "src": "Walzenbelag5.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Schematische Darstellung des Messbereiches (2)"
           },
           {
             "src": "Walzenbelag6.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Probemessungen"
           },
           {
             "src": "Walzenbelag7.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Gereinigte Walzenoberfläche"
           },
           {
             "src": "Walzenbelag8.png",
-            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+            "caption": "Verschmutzte Walzenoberfläche"
           }
         ],
         "videos": [
           {
             "src": "Walzenbelag1.mp4",
-            "caption": "Versuchsaufbau in Betrieb",
-            "poster": "PlanlageVideo1_preview.png"
+            "caption": "Versuchsaufbau in Betrieb"
           }
         ],
         "bullets": [
@@ -564,8 +569,8 @@
     "category": "rejected",
     "items": [
       {
-        "title": "Thermoformen – Wanddickenregelung durch digitale Bildverarbeitung",
-        "id": "",
+        "title": "Thermoformen - Wanddickenregelung durch digitale Bildverarbeitung",
+        "id": "AiF · 2 Jahre",
         "shortTitle": "",
         "fullTitle": "Entwicklung eines Inline-Messverfahrens basierend auf der digitalen Bildverarbeitung zur Regelung der Wanddickenverteilung beim Thermoformen",
         "images": [
@@ -579,7 +584,7 @@
             "label": "Problem",
             "text": "Wanddickenverteilung beim Thermoformen ist inhomogen und schwer kontrollierbar.",
             "sub": [
-              "Dünnste Stellen bestimmen die mechanischen Eigenschaften – alle anderen Bereiche sind überdimensioniert",
+              "Dünnste Stellen bestimmen die mechanischen Eigenschaften jedoche alle anderen Bereiche sind überdimensioniert",
               "Überdimensionierung erhöht Materialkosten und senkt Wettbewerbsfähigkeit",
               "Bestehende Messverfahren (Hall-Effekt, Ultraschall, Laser) arbeiten nur offline und punktuell",
               "Keine Inline-Messtechnik für komplexe 3D-Bauteile bei hohen Produktionsgeschwindigkeiten verfügbar"
@@ -625,18 +630,18 @@
               "Weniger Materialverbrauch durch Homogenisierung der Wanddickenverteilung",
               "Weniger Ausschuss und kürzere Anfahrzeiten",
               "Nachrüstlösung für bestehende Anlagen, Umrüstaufwand < 2.000 €",
-              "Material- und betriebspunktunabhängig – vielseitig einsetzbar"
+              "Material- und betriebspunktunabhängig → vielseitig einsetzbar"
             ]
           }
         ],
-        "kernaussage": "Von offline, punktueller Stichprobenmessung → zu inline, vollflächiger Wanddickenregelung beim Thermoformen – kostengünstig, berührungslos und prozessintegriert.",
+        "kernaussage": "Von offline, punktueller Stichprobenmessung → zu inline, vollflächiger Wanddickenregelung beim Thermoformen → kostengünstig, berührungslos und prozessintegriert.",
         "badges": [
           "rejected"
         ]
       },
       {
-        "title": "Thermoformen – Wanddickenmessung mit Smartphone",
-        "id": "",
+        "title": "Thermoformen - Wanddickenmessung mit Smartphone",
+        "id": "AiF · 2 Jahre",
         "shortTitle": "",
         "fullTitle": "Entwicklung eines Verfahrens zur Wanddickenmessung beim Thermoformen für monokulare mobile Geräte auf Basis von Visuell-Inertial-Sensordatenfusion",
         "images": [
@@ -657,7 +662,7 @@
               "Bestehende Messverfahren (Hall-Effekt, Ultraschall, Laser) arbeiten nur punktuell und offline",
               "Keine flächige Messung der Wanddickenverteilung direkt an der Anlage möglich",
               "Qualitätsprüfung erfolgt stichprobenartig mit erheblicher Zeitverzögerung",
-              "Prozessoptimierung erst nach der Verzögerung möglich – Ausschuss unvermeidbar"
+              "Prozessoptimierung erst nach der Verzögerung möglich → Ausschuss unvermeidbar"
             ]
           },
           {
@@ -697,21 +702,21 @@
             "label": "Nutzen für KMU",
             "text": "",
             "sub": [
-              "Flächige statt punktuelle Messung – vollständiges Qualitätsbild des Bauteils",
+              "Flächige statt punktuelle Messung → vollständiges Qualitätsbild des Bauteils",
               "Weniger Materialverbrauch und Ausschuss durch schnellere Prozessoptimierung",
-              "Einsatz mit vorhandenem Smartphone – keine teuren Spezialsysteme nötig",
+              "Einsatz mit vorhandenem Smartphone → keine teuren Spezialsysteme nötig",
               "Übertragbar auf andere Prozesse, z. B. Streckblasformen"
             ]
           }
         ],
-        "kernaussage": "Wanddickenmessung beim Thermoformen von aufwendig & offline → zu mobil, flächig und datenbasiert – mit einem handelsüblichen Smartphone als Messgerät.",
+        "kernaussage": "Wanddickenmessung beim Thermoformen von aufwendig & offline → zu mobil, flächig und datenbasiert → mit einem handelsüblichen Smartphone als Messgerät.",
         "badges": [
           "rejected"
         ]
       },
       {
         "title": "Profilextrusion - Inline-Farbregelung",
-        "id": "",
+        "id": "NRW-Projekt · 2 Jahre",
         "shortTitle": "",
         "fullTitle": "Entwicklung eines Regelsystems zur Inline-Farbregelung von extrudierten Kunststoffprodukten",
         "images": [
@@ -728,7 +733,7 @@
               "Probenentnahme → Laboranalyse → Prozessanpassung dauert Stunden",
               "In der Zwischenzeit produzierter Ausschuss kann meist nicht wiederverwendet werden",
               "Sinkende Losgrößen führen zu mehrfachen Farbwechseln pro Tag",
-              "Bestehende Online-Systeme messen erst am fertigen Produkt – totzeitbehaftet und träge"
+              "Bestehende Online-Systeme messen erst am fertigen Produkt → totzeitbehaftet und träge"
             ]
           },
           {
@@ -773,7 +778,7 @@
             ]
           }
         ],
-        "kernaussage": "Das Projekt ersetzt die aufwendige Offline-Farbmessung durch ein geschlossenes Inline-Regelkreis-System – schneller, ressourceneffizienter und direkt in der Schmelze.",
+        "kernaussage": "Das Projekt ersetzt die aufwendige Offline-Farbmessung durch ein geschlossenes Inline-Regelkreis-System → schneller, ressourceneffizienter und direkt in der Schmelze.",
         "badges": [
           "rejected"
         ]
