@@ -39,7 +39,6 @@
 		}
 
 		.container { width: 100%; max-width: 860px; }
-
 		.header { margin-bottom: 40px; }
 
 		.header h1 {
@@ -58,7 +57,6 @@
 			letter-spacing: 0.08em;
 		}
 
-		/* Section */
 		.section { margin-bottom: 36px; }
 
 		.section-heading {
@@ -68,11 +66,7 @@
 			margin-bottom: 14px;
 		}
 
-		.section-dot {
-			width: 7px; height: 7px;
-			border-radius: 50%;
-			flex-shrink: 0;
-		}
+		.section-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
 
 		.section-heading-label {
 			font-family: 'DM Mono', monospace;
@@ -84,19 +78,17 @@
 
 		.section-heading-line { flex: 1; height: 1px; background: var(--border); }
 
-		.cat-bearbeitet .section-dot          { background: var(--c-bearbeitet); }
-		.cat-bearbeitet .section-heading-label{ color: var(--c-bearbeitet); }
-		.cat-ausstieg   .section-dot          { background: var(--c-ausstieg); }
-		.cat-ausstieg   .section-heading-label{ color: var(--c-ausstieg); }
-		.cat-diss       .section-dot          { background: var(--c-diss); }
-		.cat-diss       .section-heading-label{ color: var(--c-diss); }
-		.cat-side       .section-dot          { background: var(--c-side); }
-		.cat-side       .section-heading-label{ color: var(--c-side); }
-		.cat-rejected   .section-dot          { background: var(--c-rejected); }
-		.cat-rejected   .section-heading-label{ color: var(--c-rejected); }
-		.cat-rejected   .item                 { opacity: 0.65; }
+		.cat-bearbeitet .section-dot           { background: var(--c-bearbeitet); }
+		.cat-bearbeitet .section-heading-label { color: var(--c-bearbeitet); }
+		.cat-ausstieg   .section-dot           { background: var(--c-ausstieg); }
+		.cat-ausstieg   .section-heading-label { color: var(--c-ausstieg); }
+		.cat-diss       .section-dot           { background: var(--c-diss); }
+		.cat-diss       .section-heading-label { color: var(--c-diss); }
+		.cat-side       .section-dot           { background: var(--c-side); }
+		.cat-side       .section-heading-label { color: var(--c-side); }
+		.cat-rejected   .section-dot           { background: var(--c-rejected); }
+		.cat-rejected   .section-heading-label { color: var(--c-rejected); }
 
-		/* Item */
 		.item {
 			border: 1px solid var(--border);
 			margin-bottom: 10px;
@@ -182,35 +174,47 @@
 			line-height: 1.35;
 		}
 
-		.content ul {
+		.bullet-list {
 			list-style: none;
 			display: flex;
 			flex-direction: column;
 			gap: 12px;
 			margin-bottom: 20px;
+			padding: 0;
 		}
 
-		.content li {
+		.bullet-list > li {
 			font-size: 14px;
 			line-height: 1.65;
 			color: var(--text);
+			padding-left: 0;
+		}
+
+		.bullet-list > li::before { display: none; }
+
+		.bullet-list > li strong {
+			color: var(--text-light);
+			font-weight: 500;
+		}
+
+		.sub-list {
+			list-style: disc;
 			padding-left: 20px;
-			position: relative;
+			margin-top: 8px;
+			margin-bottom: 0;
+			display: flex;
+			flex-direction: column;
+			gap: 4px;
 		}
 
-		.content li::before {
-			content: '→';
-			position: absolute;
-			left: 0;
+		.sub-list li {
+			font-size: 13px;
+			line-height: 1.6;
 			color: var(--text-dim);
-			font-size: 12px;
+			padding-left: 0;
 		}
 
-		.content li strong { color: var(--text-light); font-weight: 500; }
-
-		.content ul ul { margin-top: 10px; margin-bottom: 0; padding-left: 0; gap: 6px; }
-		.content ul ul li { font-size: 13px; color: var(--text-dim); }
-		.content ul ul li::before { content: '·'; font-size: 16px; top: -1px; }
+		.sub-list li::before { display: none; }
 
 		.kernaussage {
 			margin-top: 24px;
@@ -224,75 +228,86 @@
 			color: var(--text-light);
 		}
 
-		.image-gallery {
-			display: flex;
-			flex-wrap: wrap;
-			gap: 12px;
-			margin-top: 24px;
-		}
-
-		.image-gallery figure {
-			margin: 0;
-			flex: 1 1 200px;
-			max-width: 280px;
-		}
-
-		.image-gallery img {
-			width: 100%;
-			display: block;
-			border: 1px solid var(--border);
-			background: var(--surface2);
-		}
-
-		.image-gallery figcaption {
-			font-family: 'DM Mono', monospace;
-			font-size: 10px;
-			letter-spacing: 0.06em;
-			color: var(--text-dim);
-			margin-top: 6px;
-		}
-
 		.empty-note {
 			font-size: 14px;
 			color: var(--text-dim);
 			font-style: italic;
 		}
 
-		/* Images */
-		.image-grid {
+		.media-section {
+			margin-top: 28px;
+		}
+
+		.media-heading {
+			font-family: 'DM Mono', monospace;
+			font-size: 11px;
+			letter-spacing: 0.14em;
+			text-transform: uppercase;
+			color: var(--text-dim);
+			margin-bottom: 12px;
+		}
+
+		.image-grid{
 			display: grid;
 			grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
 			gap: 12px;
-			margin-top: 24px;
 		}
 
-		.image-grid figure {
+		.image-grid figure{
 			margin: 0;
 			display: flex;
 			flex-direction: column;
 			gap: 6px;
 		}
 
-		.image-grid img {
+		.image-grid img{
 			width: 100%;
 			aspect-ratio: 4/3;
 			object-fit: cover;
 			border: 1px solid var(--border);
 			display: block;
+			background: #000;
+		}
+
+		.video-grid {
+			display: grid;
+			grid-template-columns: 1fr;
+			gap: 20px;
+		}
+
+		.video-grid figure {
+			margin: 0;
+			display: flex;
+			flex-direction: column;
+			gap: 8px;
+			width: 100%;
+		}
+
+		.video-grid video {
+			width: 100%;
+			max-width: 100%;
+			aspect-ratio: 16 / 9;
+			object-fit: contain;
+			border: 1px solid var(--border);
+			display: block;
+			background: #000;
+		}
+
+		.image-grid img {
 			cursor: pointer;
 			transition: opacity 0.2s;
 		}
 
 		.image-grid img:hover { opacity: 0.85; }
 
-		.image-grid figcaption {
+		.image-grid figcaption,
+		.video-grid figcaption {
 			font-family: 'DM Mono', monospace;
 			font-size: 11px;
 			color: var(--text-dim);
 			letter-spacing: 0.04em;
 		}
 
-		/* Lightbox */
 		.lightbox {
 			display: none;
 			position: fixed;
@@ -315,19 +330,16 @@
 
 		.lightbox-close {
 			position: fixed;
-			top: 20px;
-			right: 28px;
+			top: 20px; right: 28px;
 			font-family: 'DM Mono', monospace;
 			font-size: 24px;
 			color: #fff;
 			cursor: pointer;
 			opacity: 0.7;
-			line-height: 1;
 		}
 
 		.lightbox-close:hover { opacity: 1; }
 
-		/* Volltitel tooltip */
 		.volltitel-wrapper { position: relative; display: inline-block; margin-bottom: 20px; }
 
 		.volltitel {
@@ -385,13 +397,10 @@
 		document.getElementById('lightbox').classList.remove('open');
 	}
 
-	document.addEventListener('keydown', e => {
-		if (e.key === 'Escape') closeLightbox();
-	});
+	document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
 
-	// ── Render ────────────────────────────────────────────────────
 	function renderBadge(badge) {
-		if (badge === 'diss')     return `<span class="badge badge-diss">Auch Diss</span>`;
+		if (badge === 'diss')     return `<span class="badge badge-diss">Dissertationsprojekt</span>`;
 		if (badge === 'rejected') return `<span class="badge badge-rejected">Nicht genehmigt</span>`;
 		return '';
 	}
@@ -401,69 +410,102 @@
 
 		const volltitel = item.fullTitle
 			? `<div class="volltitel-wrapper">
-           <span class="volltitel">↗ Volltitel anzeigen</span>
-           <div class="tooltip">${item.fullTitle}</div>
-         </div>`
+				 <span class="volltitel">↗ Volltitel anzeigen</span>
+				 <div class="tooltip">${item.fullTitle}</div>
+			   </div>`
 			: '';
 
 		const bulletRows = (item.bullets || []).map(b => {
 			const sub = (b.sub || []).length
-				? `<ul>${b.sub.map(s => `<li>${s}</li>`).join('')}</ul>`
+				? `<ul class="sub-list">${b.sub.map(s => `<li>${s}</li>`).join('')}</ul>`
 				: '';
-			return `<li><strong>${b.label}:</strong> ${b.text}${sub}</li>`;
+			const labelText = b.text ? ` ${b.text}` : '';
+			return `<li><strong>${b.label}:</strong>${labelText}${sub}</li>`;
 		}).join('');
 
 		const bullets = bulletRows
-			? `<ul>${bulletRows}</ul>`
-			: `<p class="empty-note">Inhalt folgt.</p>`;
+			? `<ul class="bullet-list">${bulletRows}</ul>`
+			: `<p class="empty-note">Dissertation eingereicht. Promotionsverfahren läuft.</p>`;
 
 		const kernaussage = item.kernaussage
 			? `<div class="kernaussage">${item.kernaussage}</div>`
 			: '';
 
 		const images = (item.images || []).length
-			? `<div class="image-grid">${(item.images).map(img =>
-				`<figure>
-             <img src="${img.src}" alt="${img.caption || ''}" onclick="openLightbox('${img.src}')">
-             ${img.caption ? `<figcaption>${img.caption}</figcaption>` : ''}
-           </figure>`
-			).join('')}</div>`
+			? `
+				<div class="media-section">
+					<div class="media-heading">Bilder</div>
+					<div class="image-grid">
+						${item.images.map(img => `
+							<figure>
+								<img src="${img.src}" alt="${img.caption || ''}" onclick="openLightbox('${img.src}')">
+								${img.caption ? `<figcaption>${img.caption}</figcaption>` : ''}
+							</figure>
+						`).join('')}
+					</div>
+				</div>`
+			: '';
+
+		const videos = (item.videos || []).length
+			? `
+				<div class="media-section">
+					<div class="media-heading">Videos</div>
+					<div class="video-grid">
+						${item.videos.map(video => `
+							<figure>
+								<video controls preload="metadata" ${video.poster ? `poster="${video.poster}"` : ''}>
+									<source src="${video.src}" type="video/mp4">
+									Dein Browser unterstützt das Video-Tag nicht.
+								</video>
+								${video.caption ? `<figcaption>${video.caption}</figcaption>` : ''}
+							</figure>
+						`).join('')}
+					</div>
+				</div>`
+			: '';
+
+		const shortTitle = item.shortTitle
+			? `<h3>${item.shortTitle}</h3>`
+			: '';
+
+		const contentId = item.id
+			? `<div class="content-id">${item.id}</div>`
 			: '';
 
 		return `
-      <div class="item">
-        <button class="toggle">
-          <span class="toggle-left">
-            <span class="toggle-title">${item.title}</span>
-            ${badges}
-          </span>
-          <span class="symbol">+</span>
-        </button>
-        <div class="content">
-          <div class="content-id">${item.id}</div>
-          <h3>${item.shortTitle}</h3>
-          ${volltitel}
-          ${bullets}
-          ${kernaussage}
-          ${images}
-        </div>
-      </div>`;
+		  <div class="item">
+			<button class="toggle">
+			  <span class="toggle-left">
+				<span class="toggle-title">${item.title}</span>
+				${badges}
+			  </span>
+			  <span class="symbol">+</span>
+			</button>
+			<div class="content">
+			  ${contentId}
+			  ${shortTitle}
+			  ${volltitel}
+			  ${bullets}
+			  ${kernaussage}
+			  ${images}
+			  ${videos}
+			</div>
+		  </div>`;
 	}
 
 	function renderSection(section) {
 		const items = section.items.map(renderItem).join('');
 		return `
-      <div class="section cat-${section.category}">
-        <div class="section-heading">
-          <span class="section-dot"></span>
-          <span class="section-heading-label">${section.section}</span>
-          <span class="section-heading-line"></span>
-        </div>
-        ${items}
-      </div>`;
+		  <div class="section cat-${section.category}">
+			<div class="section-heading">
+			  <span class="section-dot"></span>
+			  <span class="section-heading-label">${section.section}</span>
+			  <span class="section-heading-line"></span>
+			</div>
+			${items}
+		  </div>`;
 	}
 
-	// ── Load data & boot ──────────────────────────────────────────
 	fetch('projekte.json')
 	.then(r => r.json())
 	.then(data => {

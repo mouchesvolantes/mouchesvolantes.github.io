@@ -1,148 +1,519 @@
 [
   {
-    "section": "Von mir bearbeitet",
-    "category": "bearbeitet",
+    "section": "Dissertationsprojekt",
+    "category": "diss",
     "items": [
       {
-        "title": "Kautschukinnenmischer",
-        "images": [
-          { "src": "test.png", "caption": "Belag auf Kühlwalze" }
-        ],
-        "id": "AiF · Kautschukaufbereitung",
-        "shortTitle": "Datenbasierte Mischzeitoptimierung in der Kautschukaufbereitung",
+        "title": "Dissertation",
+        "id": "",
+        "shortTitle": "Untersuchung der Einflüsse von Prozessparametern auf die Planlage in der Blasfolienextrusion durch optische Erfassung der Folientopographie",
         "fullTitle": null,
-        "bullets": [
-          {
-            "label": "Problem",
-            "text": "Mischvorschriften sind empirisch und selten optimiert.",
-            "sub": [
-              "Mischzeiten häufig länger als nötig",
-              "Vorhandene Prozessdaten werden kaum genutzt",
-              "Hoher Energieverbrauch"
-            ]
-          },
-          {
-            "label": "Ziel",
-            "text": "Mischzeiten reduzieren, Energieverbrauch senken, Qualität sichern."
-          },
-          {
-            "label": "Lösung",
-            "text": "Dateninfrastruktur + automatische Phasenerkennung + datengetriebene Modelle für Einzug, Mastikation und Füllstoffeinarbeitung."
-          },
-          {
-            "label": "Technischer Ansatz",
-            "text": "Prozessdatenanalyse, Soft-Sensoren für Viskosität, Kopplung von Modell, Steuerung und Optimierungsalgorithmus."
-          },
-          {
-            "label": "Nutzen für KMU",
-            "text": "Geringerer Energieverbrauch, kürzere Zykluszeiten, höherer Durchsatz – ohne neue Anlagentechnik."
-          }
-        ],
-        "kernaussage": "Das Projekt nutzt Prozessdaten und mathematische Modelle, um Mischzeiten systematisch zu verkürzen und Energieeffizienz sowie Wettbewerbsfähigkeit zu steigern.",
         "badges": []
-      },
-      {
-        "title": "Reptationsbasiertes Materialmodell",
-        "id": "Streckblasprozess · PET",
-        "shortTitle": "Reptationsbasiertes Materialmodell für PET im Streckblasprozess",
-        "fullTitle": null,
-        "bullets": [
-          {
-            "label": "Problem",
-            "text": "Bestehende Feder-Dämpfer-Modelle funktionieren nur im kalibrierten Bereich.",
-            "sub": [
-              "Schlechte Vorhersage bei hohen Dehngeschwindigkeiten",
-              "Ungenaue Simulationen und Prozessauslegung"
-            ]
-          },
-          {
-            "label": "Ziel",
-            "text": "Neues physikalisches Modell auf Basis der Reptationstheorie – genauer, übertragbar auf andere Polymere."
-          },
-          {
-            "label": "Vorgehen",
-            "text": "Experimentelle Materialcharakterisierung (PET A & C), FEM-Simulation (Abaqus), Validierung in 3 Stufen: Spannungs-Dehnungstests → MIR-Folienversuche → Streckblasprozess."
-          },
-          {
-            "label": "Nutzen",
-            "text": "Deutlich genauere Wanddickenvorhersage, weniger Trial-and-Error in der Industrie."
-          }
-        ],
-        "kernaussage": "Weg von empirischen Modellen – hin zu physikalisch basierter Materialbeschreibung für präzisere Simulationen im Streckblasprozess.",
-        "badges": []
-      },
-      {
-        "title": "Planlage in der Blasfolienextrusion",
-        "id": "Blasfolienextrusion · Folienqualität",
-        "shortTitle": "Planlageanalyse in der Blasfolienextrusion",
-        "fullTitle": null,
-        "bullets": [
-          {
-            "label": "Problem",
-            "text": "Folien weisen häufig Planlagefehler auf.",
-            "sub": [
-              "Wellen, Falten, Durchhang, Rollneigung",
-              "Probleme beim Drucken, Laminieren, Weiterverarbeiten",
-              "Ausschuss und instabile Folienrollen"
-            ]
-          },
-          {
-            "label": "Ursachen",
-            "text": "Ungleichmäßige Dicke, Temperaturunterschiede, ungleichmäßige Abkühlung, Materialunterschiede bei Mehrschichtfolien."
-          },
-          {
-            "label": "Lösung",
-            "text": "Kamerasystem für Oberflächenfehler, Laser-System für 3D-Planlage, Infrarotkamera für Temperaturverteilung, Bildverarbeitungsalgorithmen."
-          },
-          {
-            "label": "Nutzen",
-            "text": "Weniger Ausschuss, bessere Druck- und Verarbeitungsqualität, Richtlinien für optimale Prozesseinstellungen."
-          }
-        ],
-        "kernaussage": "Das Projekt macht Planlagefehler erstmals systematisch messbar und beherrschbar.",
-        "badges": ["diss"]
       }
     ]
   },
   {
-    "section": "Antrag geschrieben · Bearbeitung nach Ausstieg",
-    "category": "ausstieg",
+    "section": "Durchgeführte Projekte",
+    "category": "bearbeitet",
     "items": [
       {
-        "title": "Schaumextrusion",
-        "id": "Schaumextrusion · Inline-Qualität",
-        "shortTitle": "Inline-Schaumstrukturerfassung und Regelung in der Schaumextrusion",
-        "fullTitle": null,
+        "title": "Blasfolienextrusion - Planlage in der Blasfolienextrusion",
+        "id": "",
+        "shortTitle": "",
+        "fullTitle": "Untersuchung der Einflüsse von Prozessparametern auf die Planlage in der Blasfolienextrusion durch optische Erfassung der Folientopographie",
+        "videos": [
+          {
+            "src": "Planlage1.mp4",
+            "caption": "Versuchsaufbau in Betrieb",
+            "poster": "PlanlageVideo1_preview.png"
+          },
+          {
+            "src": "Planlage2.mp4",
+            "caption": "Versuchsaufbau in Betrieb",
+            "poster": "PlanlageVideo1_preview.png"
+          }
+        ],
+        "images": [
+          {
+            "src": "Planlage1.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Planlage2.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Planlage3.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Planlage4.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Planlage5.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Planlage6.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Planlage7.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Planlage8.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Planlage9.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Planlage10.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Planlage11.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Planlage12.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Planlage13.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Planlage14.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Planlage15.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Planlage16.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Planlage17.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Planlage18.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          }
+        ],
         "bullets": [
           {
             "label": "Problem",
-            "text": "Schaumqualität wird meist nur manuell und offline geprüft.",
+            "text": "Planlagefehler treten häufig in der Blasfolienextrusion auf und sind bisher nicht vorhersagbar.",
             "sub": [
-              "Fehler werden zu spät erkannt",
-              "Ausschuss, schwankende Qualität, hoher Aufwand"
+              "Wellen, Falten, Durchhang, Rollneigung und Bogenlauf",
+              "Probleme beim Drucken, Laminieren und Weiterverarbeiten",
+              "Aufaddieren der Fehler in der Rolle → Rollendefekte",
+              "Qualitätsverluste und Ausschussproduktion"
+            ]
+          },
+          {
+            "label": "Ursachen",
+            "text": "Die Einflussfaktoren auf Planlage sind vielfältig und nicht systematisch verstanden.",
+            "sub": [
+              "Ungleichmäßige Dickenverteilung durch Volumenstrom- und Temperaturunterschiede",
+              "Inhomogene Abkühlbedingungen in der Schlauchbildungszone",
+              "Geometrische Effekte bei der Flachlegung (unterschiedliche Wegstrecken)",
+              "Materialeinflüsse bei Mehrschichtfolien (rheologische und thermische Unterschiede)"
             ]
           },
           {
             "label": "Ziel",
-            "text": "Schaumstruktur inline erfassen, automatisch bewerten und Prozessparameter gezielt nachregeln."
+            "text": "",
+            "sub": [
+              "Identifikation signifikanter Einflussfaktoren auf Planlage- und Oberflächenfehler",
+              "Quantifizierung der Wechselwirkungen zwischen Prozessparametern und Folienqualität",
+              "Objektive und reproduzierbare Messung der Planlage",
+              "Ableitung von Richtlinien für eine optimale Prozessführung"
+            ]
           },
           {
             "label": "Lösung",
-            "text": "Kamerabasiertes Inspektionssystem + Bildverarbeitung zur Analyse von Zellgröße, Zellverteilung und Homogenität + Regelungskonzept."
+            "text": "",
+            "sub": [
+              "Aufbau von optischen Messsystemen für Planlage und Oberflächenfehler",
+              "Lasertriangulation zur 3D-Erfassung der Folientopographie",
+              "Infrarotkamera zur Bestimmung der Temperaturverteilung",
+              "Kamerabasierte Inspektion und Bildverarbeitung zur Fehlerdetektion und Klassifikation"
+            ]
+          },
+          {
+            "label": "Technischer Ansatz",
+            "text": "",
+            "sub": [
+              "Systematische Versuchsplanung mit Variation von BUR, Temperatur, Frostlinie und Kühlung",
+              "Untersuchung von Ein- und Mehrschichtfolien (PE, PP)",
+              "Entwicklung von Bildverarbeitungs- und Klassifikationsalgorithmen (MATLAB)",
+              "Korrelation von Prozessdaten, Temperaturfeldern und Planlagefehlern"
+            ]
           },
           {
             "label": "Nutzen",
-            "text": "Kontinuierliche Qualitätsüberwachung, schnellere Reaktion auf Abweichungen, weniger Ausschuss."
+            "text": "",
+            "sub": [
+              "Reduzierung von Ausschuss und Qualitätsproblemen",
+              "Verbesserte Weiterverarbeitbarkeit (Druck, Laminierung, Wickeln)",
+              "Steigerung der Produktivität und Ressourceneffizienz",
+              "Direkte Umsetzbarkeit ohne zusätzliche Anlagentechnik"
+            ]
           }
         ],
-        "kernaussage": "Das Projekt verbindet Bildverarbeitung, Qualitätsklassifikation und Prozessregelung, um die Schaumextrusion zuverlässiger und wirtschaftlicher zu machen.",
+        "kernaussage": "Das Projekt schafft erstmals ein systematisches Verständnis der Einflussfaktoren auf die Planlage und ermöglicht eine gezielte Optimierung der Blasfolienextrusion.",
+        "badges": [
+          "diss"
+        ]
+      },
+      {
+        "title": "Kautschukaufbereitung - Mischzeitreduktion auf Basis datengetriebener Modelle",
+        "id": "",
+        "shortTitle": "",
+        "fullTitle": "Erhöhung der Energieeffizienz bei der Kautschukaufbereitung durch eine Mischzeitreduktion auf Basis datengetriebener mathematischer Modelle",
+        "images": [
+          {
+            "src": "Kautschuk1.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Kautschuk2.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Kautschuk3.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Kautschuk4.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          }
+        ],
+        "bullets": [
+          {
+            "label": "Problem",
+            "text": "Mischvorschriften für Kautschuk werden empirisch festgelegt und selten systematisch optimiert.",
+            "sub": [
+              "Mischzeiten häufig länger als nötig – kein konsequentes Optimieren hinsichtlich Energie und Zeit",
+              "Vorhandene Prozessdaten werden kaum zur Optimierung genutzt",
+              "Empirische Zeitmarken (z. B. Mastikation) ohne wissenschaftliche Grundlage – Einsparpotenzial von ≥ 10 % ungenutzt",
+              "Hoher Energieverbrauch bei diskontinuierlichen Mischprozessen"
+            ]
+          },
+          {
+            "label": "Ziel",
+            "text": "",
+            "sub": [
+              "Mischzeiten in Einzugs-, Mastikations- und Füllstoffeinarbeitungsphase systematisch reduzieren",
+              "Energieverbrauch beim Mischen um ca. 10–20 % senken",
+              "Durchsatz bei konstanter Mischungsqualität erhöhen",
+              "Methodik auf konventionellen Innenmischern bei KMU anwendbar machen"
+            ]
+          },
+          {
+            "label": "Lösung",
+            "text": "",
+            "sub": [
+              "Dateninfrastruktur mit OPC-UA-Schnittstelle zur automatisierten Erfassung von Prozessdaten",
+              "Softwarebasierte automatische Erkennung der Mischphasen (Einzug, Mastikation, Füllstoffinkorporation)",
+              "Datengetriebene mathematische Modelle für jede Mischphase auf Basis umfangreicher Versuchsdaten",
+              "Soft-Sensoren berechnen nicht direkt messbare Größen (Viskosität, Molekulargewichtsverteilung)",
+              "Optimierung der Mischvorschriften durch Minimierung der Prozesszeit unter Qualitätsrandbedingungen"
+            ]
+          },
+          {
+            "label": "Technischer Ansatz",
+            "text": "",
+            "sub": [
+              "Mischversuche mit NR, NBR und SBR/BR-Blends am Laborinnenmischer (IKV)",
+              "Variation von Drehzahl, Temperierung, Füllgrad und Mischzeit – systematische Versuchsplanung",
+              "Charakterisierung über RPA (Viskosität, Payne-Effekt) und Molekulargewichtsverteilung",
+              "Modellbildung in MATLAB, Implementierung der Soft-Sensoren in Structured Text (SPS-fähig)",
+              "Validierung auf Labormischer (PES 5) und Scale-up auf GK 5 E (Industriegröße)"
+            ]
+          },
+          {
+            "label": "Nutzen für KMU",
+            "text": "",
+            "sub": [
+              "Geringerer Energieverbrauch und kürzere Zykluszeiten ohne neue Anlagentechnik",
+              "Methoden direkt auf vorhandene Innenmischer übertragbar",
+              "Open-Source-Datenbankstruktur und offene OPC-UA-Schnittstelle – keine Lizenzkosten",
+              "Automatisierte Phasenerkennung verbessert Prozessverständnis und Reproduzierbarkeit"
+            ]
+          }
+        ],
+        "kernaussage": "Das Projekt nutzt vorhandene Prozessdaten und datengetriebene Modelle, um Mischzeiten in der Kautschukaufbereitung systematisch zu verkürzen und damit Energieeffizienz sowie Wettbewerbsfähigkeit zu steigern.",
         "badges": []
       },
       {
-        "title": "Walzenbelagserkennung",
-        "id": "AiF · Flachfolienextrusion",
-        "shortTitle": "Inline-Walzenbelagserkennung und -reinigung in der Flachfolienextrusion",
+        "title": "Streckblasformen - Reptationsmodell für PET bei hohen Dehnraten",
+        "id": "",
+        "shortTitle": "",
+        "fullTitle": "Entwicklung und Analyse eines Materialmodells auf Basis der Reptationstheorie zur Abbildung des Dehnverhaltens von PET bei hohen Dehnraten",
+        "images": [
+          {
+            "src": "Reptation1.png",
+            "caption": "Limitations of reptation theory for modeling the stress-dependent rheological behaviour of Polyethylene Terephthalate above the glass transition temperature"
+          }
+        ],
+        "bullets": [
+          {
+            "label": "Problem",
+            "text": "Bestehende Materialmodelle (Feder-Dämpfer) können PET-Verhalten nur im kalibrierten Bereich gut vorhersagen.",
+            "sub": [
+              "Schlechte Vorhersage bei hohen Dehngeschwindigkeiten (> 700 %/s)",
+              "Ungenaue Extrapolation außerhalb des kalibrierten Bereichs",
+              "Im Streckblasprozess treten gleichzeitig verschiedene Dehnraten und Temperaturen auf – keine gleichmäßige Abbildungsgenauigkeit"
+            ]
+          },
+          {
+            "label": "Ziel",
+            "text": "",
+            "sub": [
+              "Erstmalige Entwicklung eines rein physikalischen Materialmodells für PET auf Basis der Reptationstheorie",
+              "Gleichmäßig präzise Vorhersage für ein breites Spektrum an Dehnraten und Temperaturen",
+              "Übertragbarkeit auf andere Polymere"
+            ]
+          },
+          {
+            "label": "Vorgehen",
+            "text": "",
+            "sub": [
+              "Modifikation des Membran-Inflations-Rheometers (MIR) für höhere Dehnraten (bis 1000 %/s)",
+              "Experimentelle Materialcharakterisierung für PET A (amorph) und PET C (teilkristallin)",
+              "Modellbildung und Implementierung als FEM-Subroutine (Abaqus / FORTRAN)",
+              "Validierung in 3 Stufen: Spannungs-Dehnungstests (Reckrahmen) → MIR-Folienversuche → Streckblasprozess-Simulation"
+            ]
+          },
+          {
+            "label": "Technischer Ansatz",
+            "text": "",
+            "sub": [
+              "Reptationstheorie nach De Gennes und Edwards als physikalische Grundlage",
+              "Tube model zur Beschreibung der Molekülkettenbewegung",
+              "Kombination aus Reptationsterm und Rouse-Term für den glasnahen Bereich",
+              "Fluid-Struktur-Interaktion in der MIR-Simulation",
+              "Inverser Algorithmus zur Berechnung der Temperaturverteilung im Preform"
+            ]
+          },
+          {
+            "label": "Nutzen",
+            "text": "",
+            "sub": [
+              "Deutlich genauere Wanddickenvorhersage bei der Flaschenherstellung",
+              "Besseres Prozessverständnis und effizientere Prozessauslegung",
+              "Weniger Trial-and-Error in der Industrie",
+              "Grundlage für physikalisch basierte Modelle anderer Polymere"
+            ]
+          }
+        ],
+        "kernaussage": "Weg von empirischen Feder-Dämpfer-Modellen – hin zu physikalisch basierter Materialbeschreibung auf Basis der Reptationstheorie für präzisere Simulationen im Streckblasprozess.",
+        "badges": []
+      }
+    ]
+  },
+  {
+    "section": "Nebenprojekte",
+    "category": "side",
+    "items": [
+      {
+        "title": "Membran-Inflations-Rheometer (MIR)",
+        "id": "",
+        "shortTitle": "",
+        "fullTitle": "Modernisierung des Membran-Inflation-Rheometers (MIR) durch Implementierung und Erprobung eines Regelsystems für eine konstante Dehngeschwindigkeit",
+        "images": [
+          {
+            "src": "MIR1.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "MIR2.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "MIR3.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          }
+        ],
+        "bullets": [
+          {
+            "label": "Problem",
+            "text": "",
+            "sub": [
+              "Bestehender Prüfstand veraltet",
+              "Keine Echtzeitregelung möglich",
+              "Keine konstante Dehngeschwindigkeit",
+              "Messung nur nachträglich (offline)"
+            ]
+          },
+          {
+            "label": "Ziel",
+            "text": "",
+            "sub": [
+              "Konstante Dehngeschwindigkeit ≥ 1000 %/s",
+              "Einführung einer Echtzeitregelung",
+              "Modernisierung von Hardware und Software"
+            ]
+          },
+          {
+            "label": "Lösung",
+            "text": "",
+            "sub": [
+              "Elektromechanischer Linearantrieb",
+              "Hochgeschwindigkeitskameras",
+              "Steuerungssoftware (C#)",
+              "Geschlossener PID-Regelkreis"
+            ]
+          },
+          {
+            "label": "Ergebnis",
+            "text": "",
+            "sub": [
+              "Dehngeschwindigkeit bis 2000 %/s erreicht",
+              "Echtzeitfähigkeit grundsätzlich nachgewiesen",
+              "Grundlage für zukünftige Weiterentwicklung"
+            ]
+          },
+          {
+            "label": "Nutzen",
+            "text": "",
+            "sub": [
+              "Genauere Materialdaten (Spannungs-Dehnungs-Kurven)",
+              "Bessere Prozesssimulation (z. B. Streckblasen)"
+            ]
+          }
+        ],
+        "kernaussage": "Von vorgegebenem Bewegungsprofil → zu optisch basierter Echtzeitregelung.",
+        "badges": []
+      }
+    ]
+  },
+  {
+    "section": "Von mir beantragt und initiiert, Bewilligung nach meinem Ausscheiden",
+    "category": "ausstieg",
+    "items": [
+      {
+        "title": "Schaumextrusion - Inline-Erfassung und -regelung der Schaumstruktur",
+        "id": "",
+        "shortTitle": "",
+        "fullTitle": "Entwicklung eines Regelungskonzeptes zur verbesserten Prozessführung in der Schaumextrusion durch Inline-Erfassung und Klassifizierung der Schaumstruktur mittels digitaler Bildverarbeitung",
+        "images": [
+          {
+            "src": "Schaumstruktur1.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          }
+        ],
+        "bullets": [
+          {
+            "label": "Problem",
+            "text": "Schaumqualität wird heute nur manuell und offline geprüft.",
+            "sub": [
+              "Keine prozessintegrierten Messmethoden für Schaumstruktur verfügbar",
+              "Qualitätsprüfung subjektiv und fehleranfällig durch Maschinenbediener",
+              "Prozessparameter erst nach erheblicher Zeitverzögerung optimierbar",
+              "Ausschussproduktion während der Verzögerung unvermeidbar"
+            ]
+          },
+          {
+            "label": "Ziel",
+            "text": "",
+            "sub": [
+              "Schaumstruktur kontinuierlich inline erfassen",
+              "Schaumqualität automatisch klassifizieren und bewerten",
+              "Prozessparameter bei Abweichungen gezielt nachregeln",
+              "Ausschussquoten senken und Bauteilqualität erhöhen"
+            ]
+          },
+          {
+            "label": "Lösung",
+            "text": "",
+            "sub": [
+              "Kamerabasiertes Inspektionssystem erfasst Oberflächen- und Schnittkantenbilder inline",
+              "Bildverarbeitungsalgorithmen extrahieren geometrische und statistische Schaummerkmale",
+              "Klassifikationsalgorithmus ordnet Schaumstruktur automatisch Referenzklassen zu",
+              "Regelungsalgorithmus passt Prozessparameter (z. B. Nukleierungsmitteldosierung, Abzugsgeschwindigkeit) automatisch an"
+            ]
+          },
+          {
+            "label": "Technischer Ansatz",
+            "text": "",
+            "sub": [
+              "Zwei Industriekameras (2560×2048 px, 211 fps) mit optimierter Beleuchtungsstrategie (Auflicht und Durchlicht)",
+              "Segmentierung und Merkmalsextraktion: Zellgröße, Zellverteilung, Rundheit, Zelldichte, Aufschäumgrad",
+              "Statistische Texturmerkmale via Gabor-Filterbänke für lokale Schaumcharakterisierung",
+              "k-Nächster-Nachbar-Klassifikation mit Referenzbilddatenbank",
+              "Validierung durch Röntgen-Computertomographie (RCT) und Mikroskopie"
+            ]
+          },
+          {
+            "label": "Nutzen für KMU",
+            "text": "",
+            "sub": [
+              "Kontinuierliche, objektive Qualitätsüberwachung statt manueller Sichtprüfung",
+              "Schnellere Reaktion auf Prozessabweichungen – weniger Ausschuss",
+              "Nachrüstlösung für bestehende Anlagen, Systemziel < 25.000 €",
+              "Implementierung in lizenzfreien Sprachen (C++/OpenCV) – keine Lizenzkosten"
+            ]
+          }
+        ],
+        "kernaussage": "Das Projekt verbindet Bildverarbeitung, automatische Klassifikation und Prozessregelung, um die Schaumextrusion erstmals inline regelbar zu machen – zuverlässiger, effizienter und wirtschaftlicher.",
+        "badges": []
+      },
+      {
+        "title": "Flachfolienextrusion - Walzenbelagserkennung und -reinigung",
+        "id": "",
+        "shortTitle": "",
         "fullTitle": "Steigerung der Produktivität und der Folienqualität in der Flachfolienextrusion durch Vermeidung der Belagsbildung auf Kühlwalzen mithilfe eines mit einem optischen Inspektionssystem gekoppelten Walzenreinigungssystems",
+        "images": [
+          {
+            "src": "Walzenbelag1.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Walzenbelag2.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Walzenbelag3.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Walzenbelag4.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Walzenbelag5.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Walzenbelag6.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Walzenbelag7.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Walzenbelag8.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          }
+        ],
+        "videos": [
+          {
+            "src": "Walzenbelag1.mp4",
+            "caption": "Versuchsaufbau in Betrieb",
+            "poster": "PlanlageVideo1_preview.png"
+          }
+        ],
         "bullets": [
           {
             "label": "Problem",
@@ -156,15 +527,31 @@
           },
           {
             "label": "Ziel",
-            "text": "Beläge frühzeitig erkennen und Walzen automatisch reinigen, ohne den Produktionsprozess zu stoppen."
+            "text": "",
+            "sub": [
+              "Beläge frühzeitig erkennen",
+              "Walzen automatisch reinigen",
+              "Reinigung ohne Produktionsstopp ermöglichen"
+            ]
           },
           {
             "label": "Lösung",
-            "text": "Optisches Kamerasystem überwacht kontinuierlich; Bildverarbeitungsalgorithmen erkennen Belagbildung und starten das Reinigungssystem automatisch."
+            "text": "",
+            "sub": [
+              "Optisches Kamerasystem überwacht die Walzenoberfläche kontinuierlich",
+              "Bildverarbeitungsalgorithmen erkennen Belagbildung",
+              "Reinigungssystem startet automatisch im laufenden Betrieb"
+            ]
           },
           {
             "label": "Nutzen für KMU",
-            "text": "Weniger Ausschuss, weniger Stillstand, höhere Anlagenverfügbarkeit – Systemziel < 35.000 €."
+            "text": "",
+            "sub": [
+              "Weniger Ausschuss",
+              "Weniger Stillstand",
+              "Höhere Anlagenverfügbarkeit",
+              "Systemziel < 35.000 €"
+            ]
           }
         ],
         "kernaussage": "Das Projekt verbindet Messtechnik und automatische Reinigung, um die Folienextrusion stabiler, effizienter und wirtschaftlicher zu machen.",
@@ -173,146 +560,223 @@
     ]
   },
   {
-    "section": "Dissertationsprojekt",
-    "category": "diss",
-    "items": [
-      {
-        "title": "Planlage in der Blasfolienextrusion",
-        "id": "Blasfolienextrusion · Folienqualität",
-        "shortTitle": "Planlageanalyse in der Blasfolienextrusion",
-        "fullTitle": null,
-        "bullets": [
-          {
-            "label": "Problem",
-            "text": "Folien weisen häufig Planlagefehler auf.",
-            "sub": [
-              "Wellen, Falten, Durchhang, Rollneigung",
-              "Probleme beim Drucken, Laminieren, Weiterverarbeiten",
-              "Ausschuss und instabile Folienrollen"
-            ]
-          },
-          {
-            "label": "Ursachen",
-            "text": "Ungleichmäßige Dicke, Temperaturunterschiede, ungleichmäßige Abkühlung, Materialunterschiede bei Mehrschichtfolien."
-          },
-          {
-            "label": "Lösung",
-            "text": "Kamerasystem für Oberflächenfehler, Laser-System für 3D-Planlage, Infrarotkamera für Temperaturverteilung, Bildverarbeitungsalgorithmen."
-          },
-          {
-            "label": "Nutzen",
-            "text": "Weniger Ausschuss, bessere Druck- und Verarbeitungsqualität, Richtlinien für optimale Prozesseinstellungen."
-          }
-        ],
-        "kernaussage": "Das Projekt macht Planlagefehler erstmals systematisch messbar und beherrschbar.",
-        "badges": []
-      }
-    ]
-  },
-  {
-    "section": "Nebenprojekte",
-    "category": "side",
-    "items": [
-      {
-        "title": "Membran-Inflations-Rheometer",
-        "id": "Messtechnik · Materialcharakterisierung",
-        "shortTitle": "Echtzeit-Dehngeschwindigkeitsregelung im Membran-Inflations-Rheometer",
-        "fullTitle": null,
-        "bullets": [
-          {
-            "label": "Problem",
-            "text": "Bestehender Prüfstand veraltet – keine Echtzeitregelung, keine konstante Dehngeschwindigkeit, nur Offline-Messung."
-          },
-          {
-            "label": "Ziel",
-            "text": "Konstante Dehngeschwindigkeit ≥ 1000 %/s, Echtzeitregelung, modernisierte Hard- und Software."
-          },
-          {
-            "label": "Lösung",
-            "text": "Elektromechanischer Linearantrieb, Hochgeschwindigkeitskameras, Steuerungssoftware (C#), geschlossener PID-Regelkreis."
-          },
-          {
-            "label": "Ergebnis",
-            "text": "Dehngeschwindigkeit bis 2000 %/s erreicht; Echtzeitfähigkeit nachgewiesen; Grundlage für Folgeentwicklung."
-          },
-          {
-            "label": "Nutzen",
-            "text": "Genauere Materialdaten (Spannungs-Dehnungs-Kurven), bessere Prozesssimulation (z. B. Streckblasen)."
-          }
-        ],
-        "kernaussage": "Von vorgegebenem Bewegungsprofil → zu optisch basierter Echtzeitregelung.",
-        "badges": []
-      }
-    ]
-  },
-  {
-    "section": "Antrag geschrieben · Nicht genehmigt",
+    "section": "Von mir beantragt und initiiert · Nicht genehmigt",
     "category": "rejected",
     "items": [
       {
-        "title": "Thermoformen – Wanddickenregelung",
-        "id": "Thermoformen · Inline-Messtechnik",
-        "shortTitle": "Inline-Wanddickenmessung und -regelung beim Thermoformen",
-        "fullTitle": null,
+        "title": "Thermoformen – Wanddickenregelung durch digitale Bildverarbeitung",
+        "id": "",
+        "shortTitle": "",
+        "fullTitle": "Entwicklung eines Inline-Messverfahrens basierend auf der digitalen Bildverarbeitung zur Regelung der Wanddickenverteilung beim Thermoformen",
+        "images": [
+          {
+            "src": "Wanddickenregelung1.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          }
+        ],
         "bullets": [
           {
             "label": "Problem",
-            "text": "Wanddicken sind nicht gleichmäßig verteilt.",
+            "text": "Wanddickenverteilung beim Thermoformen ist inhomogen und schwer kontrollierbar.",
             "sub": [
-              "Dünnste Stellen bestimmen Bauteilfestigkeit",
-              "Andere Bereiche überdimensioniert → Materialverschwendung"
+              "Dünnste Stellen bestimmen die mechanischen Eigenschaften – alle anderen Bereiche sind überdimensioniert",
+              "Überdimensionierung erhöht Materialkosten und senkt Wettbewerbsfähigkeit",
+              "Bestehende Messverfahren (Hall-Effekt, Ultraschall, Laser) arbeiten nur offline und punktuell",
+              "Keine Inline-Messtechnik für komplexe 3D-Bauteile bei hohen Produktionsgeschwindigkeiten verfügbar"
             ]
           },
           {
             "label": "Ziel",
-            "text": "Wanddicken inline messen und aktiv regeln, Materialeinsatz um ~5 % reduzieren."
+            "text": "",
+            "sub": [
+              "Materialeinsatz um 5 % reduzieren durch homogenisierte Wanddickenverteilung",
+              "Berührungslose, vollautomatische Inline-Wanddickenmessung an 3D-Thermoformbauteilen",
+              "Einfluss der Prozessparameter auf Wanddickenverteilung systematisch charakterisieren",
+              "Grundlage für eine geschlossene Wanddickenregelung schaffen",
+              "Systempreis < 5.000 €"
+            ]
           },
           {
             "label": "Lösung",
-            "text": "Stereokamerasystem, Gittermuster auf Folie, 3D-Rekonstruktion → lokale Dehnung → Wanddicke, geschlossener Regelkreis. Systemziel < 5.000 €."
+            "text": "",
+            "sub": [
+              "Muster (z. B. Gitter) wird vor der Umformung auf die Halbzeugoberfläche aufgebracht",
+              "Stereokamerasystem erfasst Muster vor und nach der Umformung",
+              "3D-Rekonstruktion via Epipolargeometrie berechnet lokale Flächenänderungen",
+              "Aus Flächenänderung + Volumenkonstanz wird lokale Wanddicke berechnet",
+              "Regelungsalgorithmus passt Prozessparameter automatisch an, um Wanddickenabweichungen zu minimieren"
+            ]
           },
           {
-            "label": "Nutzen",
-            "text": "Weniger Material, weniger Ausschuss, schnellere Prozesseinstellung, einfache Integration."
+            "label": "Technischer Ansatz",
+            "text": "",
+            "sub": [
+              "Stereokamerasystem mit optimierter Beleuchtungsstrategie und Kamerakalibration (AP1 & AP2)",
+              "Bildverarbeitungsalgorithmen: Merkmalsdetektion → 3D-Rekonstruktion → Wanddickenberechnung (AP3)",
+              "Validierung gegen Hall-Effekt-Dickenmessgerät (Magna-Mike 8600)",
+              "Statistische Versuchsplanung zur Charakterisierung von Halbzeugtemperatur, Stempelweg und Druckzeitpunkt (AP4)",
+              "Regelungsalgorithmus mit gewichteter Fehlerquadratsumme für kritische Bauteilbereiche (AP5 & AP6)"
+            ]
+          },
+          {
+            "label": "Nutzen für KMU",
+            "text": "",
+            "sub": [
+              "Weniger Materialverbrauch durch Homogenisierung der Wanddickenverteilung",
+              "Weniger Ausschuss und kürzere Anfahrzeiten",
+              "Nachrüstlösung für bestehende Anlagen, Umrüstaufwand < 2.000 €",
+              "Material- und betriebspunktunabhängig – vielseitig einsetzbar"
+            ]
           }
         ],
-        "kernaussage": "Von offline Stichproben → zu inline, vollflächiger Wanddickenregelung.",
-        "badges": ["rejected"]
+        "kernaussage": "Von offline, punktueller Stichprobenmessung → zu inline, vollflächiger Wanddickenregelung beim Thermoformen – kostengünstig, berührungslos und prozessintegriert.",
+        "badges": [
+          "rejected"
+        ]
       },
       {
-        "title": "Thermoformen – Smartphone-Messung",
-        "id": "Thermoformen · Mobile Messtechnik",
-        "shortTitle": "Smartphone-basierte Wanddickenmessung im Thermoformen",
-        "fullTitle": null,
+        "title": "Thermoformen – Wanddickenmessung mit Smartphone",
+        "id": "",
+        "shortTitle": "",
+        "fullTitle": "Entwicklung eines Verfahrens zur Wanddickenmessung beim Thermoformen für monokulare mobile Geräte auf Basis von Visuell-Inertial-Sensordatenfusion",
+        "images": [
+          {
+            "src": "Smartphone1.png",
+            "caption": "Erfassung von Bildmerkmalen bei der Deformation eines quadratischen Gitters"
+          },
+          {
+            "src": "Smartphone2.png",
+            "caption": "Modellierung der Visuell-Inertial-Sensordatenfusion"
+          }
+        ],
         "bullets": [
           {
             "label": "Problem",
-            "text": "Wanddickenmessung heute punktuell, offline, zeitverzögert → hoher Ausschuss."
+            "text": "Wanddickenverteilung beim Thermoformen ist inhomogen und nur aufwendig messbar.",
+            "sub": [
+              "Bestehende Messverfahren (Hall-Effekt, Ultraschall, Laser) arbeiten nur punktuell und offline",
+              "Keine flächige Messung der Wanddickenverteilung direkt an der Anlage möglich",
+              "Qualitätsprüfung erfolgt stichprobenartig mit erheblicher Zeitverzögerung",
+              "Prozessoptimierung erst nach der Verzögerung möglich – Ausschuss unvermeidbar"
+            ]
           },
           {
             "label": "Ziel",
-            "text": "Flächige Wanddickenmessung direkt an der Maschine – kostengünstig (< 800 €) und mobil."
+            "text": "",
+            "sub": [
+              "Kostengünstige, flächige Wanddickenmessung direkt an der Produktionsanlage",
+              "Vollständige Wanddickenverteilung des Formteils binnen Sekunden bestimmbar",
+              "Messgenauigkeit im Bereich von 10 µm",
+              "Systempreis < 800 € durch Einsatz eines handelsüblichen Smartphones"
+            ]
           },
           {
             "label": "Lösung",
-            "text": "Smartphone (Kamera + IMU), Speckle-Muster auf Folie, 3D-Rekonstruktion (Structure from Motion), visuell-inertiale Sensordatenfusion (EKF)."
+            "text": "",
+            "sub": [
+              "Halbzeug wird vor dem Thermoformen mit einem Speckle-Muster versehen",
+              "Smartphone-Kamera nimmt Video des Formteils nach der Umformung auf",
+              "3D-Rekonstruktion via Structure from Motion (SfM) aus der 2D-Bildserie",
+              "Visuell-Inertial-Sensordatenfusion (Extended-Kalman-Filter) kombiniert Kamera- und IMU-Daten",
+              "Lokale Flächenänderung des Speckle-Musters → Wanddicke über Volumenkonstanz berechnet"
+            ]
           },
           {
-            "label": "Nutzen",
-            "text": "Weniger Material (> 5 % Einsparung), weniger Ausschuss, besonders relevant für KMU."
+            "label": "Technischer Ansatz",
+            "text": "",
+            "sub": [
+              "Kalibrierung von Kamera und Inertialsensoren (Beschleunigungssensor + Gyroskop) des Smartphones",
+              "Merkmalsdetektoren und -deskriptoren (FAST, SURF, BRISK) für Speckle-Punkterkennung",
+              "Kameraposeschätzung auf Basis von Epipolargeometrie und Essentialmatrix",
+              "Extended-Kalman-Filter fusioniert visuelle und inertiale Daten für robuste 3D-Rekonstruktion",
+              "Dreiecksvernetzung der Formteiloberfläche zur Flächenänderungs- und Wanddickenberechnung",
+              "Implementierung als Android-App (Google Play)"
+            ]
+          },
+          {
+            "label": "Nutzen für KMU",
+            "text": "",
+            "sub": [
+              "Flächige statt punktuelle Messung – vollständiges Qualitätsbild des Bauteils",
+              "Weniger Materialverbrauch und Ausschuss durch schnellere Prozessoptimierung",
+              "Einsatz mit vorhandenem Smartphone – keine teuren Spezialsysteme nötig",
+              "Übertragbar auf andere Prozesse, z. B. Streckblasformen"
+            ]
           }
         ],
-        "kernaussage": "Wanddickenmessung von aufwendig & offline → zu mobil, schnell und datenbasiert.",
-        "badges": ["rejected"]
+        "kernaussage": "Wanddickenmessung beim Thermoformen von aufwendig & offline → zu mobil, flächig und datenbasiert – mit einem handelsüblichen Smartphone als Messgerät.",
+        "badges": [
+          "rejected"
+        ]
       },
       {
-        "title": "Farbregelung in der Extrusion",
-        "id": "Extrusion · Farbqualität",
-        "shortTitle": "Inline-Farbregelung in der Extrusion",
-        "fullTitle": null,
-        "bullets": [],
-        "kernaussage": null,
-        "badges": ["rejected"]
+        "title": "Profilextrusion - Inline-Farbregelung",
+        "id": "",
+        "shortTitle": "",
+        "fullTitle": "Entwicklung eines Regelsystems zur Inline-Farbregelung von extrudierten Kunststoffprodukten",
+        "images": [
+          {
+            "src": "Farbregelung1.png",
+            "caption": "Schematische Darstellung einer Inline-Prozessüberwachung"
+          }
+        ],
+        "bullets": [
+          {
+            "label": "Problem",
+            "text": "Farbeinstellung bei extrudierten Produkten erfolgt heute offline und zeitverzögert.",
+            "sub": [
+              "Probenentnahme → Laboranalyse → Prozessanpassung dauert Stunden",
+              "In der Zwischenzeit produzierter Ausschuss kann meist nicht wiederverwendet werden",
+              "Sinkende Losgrößen führen zu mehrfachen Farbwechseln pro Tag",
+              "Bestehende Online-Systeme messen erst am fertigen Produkt – totzeitbehaftet und träge"
+            ]
+          },
+          {
+            "label": "Ziel",
+            "text": "",
+            "sub": [
+              "Ausschussproduktion bei Farbwechsel- und Anfahrvorgängen reduzieren",
+              "Farbwechselzeiten deutlich verkürzen",
+              "Kontinuierliche, automatisierte Prozessüberwachung und -regelung ermöglichen",
+              "Produktivität und Wettbewerbsfähigkeit von Extrusionsunternehmen steigern"
+            ]
+          },
+          {
+            "label": "Lösung",
+            "text": "",
+            "sub": [
+              "Inline-Messsonde misst Farbwert direkt in der Schmelze am Extruderausgang",
+              "Messsignal (z. B. ΔE* im L*a*b*-Farbraum) wird an Regelungssystem übergeben",
+              "Dosiersystem regelt automatisch die Zugabe von Farbmasterbatch oder Flüssigfarbe nach",
+              "Kontinuierliche Prozessüberwachung erkennt Dosierschwankungen und Temperaturänderungen in Echtzeit"
+            ]
+          },
+          {
+            "label": "Technischer Ansatz",
+            "text": "",
+            "sub": [
+              "Anpassung bestehender Inline-Farbmesssysteme (Reflexionssonde mit Saphirglas) für Schmelzebedingungen",
+              "Weiterentwicklung gravimetrischer Dosiersysteme für unterschiedliche Lieferformen (Masterbatch, Flüssigfarbe)",
+              "Entwicklung der Prozesssteuerung und -regelung (Closed-Loop) als Verbindung beider Systeme",
+              "Aufbau von Prozesswissen zur Korrelation Schmelzefarbe → Extrudatfarbe unter Berücksichtigung von Thermochromie",
+              "Erprobung im Labor (IKV) und industriell (Döllken-Produktionsanlage)"
+            ]
+          },
+          {
+            "label": "Nutzen für KMU",
+            "text": "",
+            "sub": [
+              "Deutlich weniger Ausschuss bei Farbwechseln und Anfahrvorgängen",
+              "Höhere Anlagenproduktivität durch kürzere Umstellzeiten",
+              "Nachrüstlösung für bestehende Extrusionsanlagen",
+              "Übertragbar auf andere Prozesse: Spritzgießen, Folienextrusion, Pharma- und Lebensmittelindustrie"
+            ]
+          }
+        ],
+        "kernaussage": "Das Projekt ersetzt die aufwendige Offline-Farbmessung durch ein geschlossenes Inline-Regelkreis-System – schneller, ressourceneffizienter und direkt in der Schmelze.",
+        "badges": [
+          "rejected"
+        ]
       }
     ]
   }
